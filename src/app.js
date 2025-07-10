@@ -27,7 +27,9 @@ app.use(express.json()); // Parse JSON bodies
 app.use('/api/auth', authRoutes);
 app.use('/api/vote', voteRoutes);
 app.use('/api/admin', adminRoutes);
-
+app.get('/', (req, res) => {
+  res.send('🚀 Server is live on Render!');
+});
 // Error handling middleware
 app.use(errorHandler);
 
