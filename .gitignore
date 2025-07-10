@@ -1,0 +1,17 @@
+node# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# dotenv files
+.env
+
+# Build
+dist/
+build/
