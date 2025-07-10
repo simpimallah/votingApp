@@ -1,6 +1,6 @@
 node# Node modules
 node_modules/
-
+package-lock.json
 # Logs
 logs
 *.log
@@ -10,7 +10,7 @@ pids
 *.pid
 
 # dotenv files
-.env
+
 
 # Build
 dist/
